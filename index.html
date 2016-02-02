@@ -29,7 +29,7 @@
 			<div class="container">
 				<div class="header-top">
 					<div class="pull-right social-icons">
-						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-sponsor"></i></a>
 						<a href="#"><i class="fa fa-facebook"></i></a>
 						<a href="#"><i class="fa fa-google-plus"></i></a>
 						<a href="#"><i class="fa fa-youtube"></i></a>
@@ -53,7 +53,7 @@
 		                    <li class="scroll"><a href="#explore">Explore</a></li>                         
 		                    <li class="scroll"><a href="#event">Events</a></li>
 		                    <li class="scroll"><a href="#about">About</a></li>                     
-		                    <li class="no-scroll"><a href="#twitter">Sponsors</a></li>
+		                    <li class="no-scroll"><a href="#sponsor">Sponsors</a></li>
 		                    
 		                    <li class="scroll"><a href="#contact">Contact</a></li>
 		                    <li class="scroll"><a href="#developer">Developers</a></li>	       
@@ -289,32 +289,130 @@
 							</address>
 						</div>
 					</div>
+					
 					<div class="col-sm-5">
 						<div id="contact-section">
-							<h3>Send a message</h3>
-					    	<div class="status alert alert-success" style="display: none"></div>
-					    	<form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
-					            <div class="form-group">
-					                <input type="text" name="name" class="form-control" required="required" placeholder="Name">
-					            </div>
-					            <div class="form-group">
-					                <input type="email" name="email" class="form-control" required="required" placeholder="Email ID">
-					            </div>
-					            <div class="form-group">
-					                <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Enter your message"></textarea>
-					            </div>                        
-					            <div class="form-group">
-					                <button type="submit" class="btn btn-primary pull-right">Send</button>
-					            </div>
-					        </form>	       
-					    </div>
+							<form id="main-contact-form" class="contact-form" name="reg-form" method="post" action="sendemailR.php">
+								<div class="form-group">
+									<input type="text" name="firstname" class="form-control" required="required" placeholder="First Name">
+								</div>
+								
+								<div class="form-group">
+									<input type="text" name="lastname" class="form-control" required="required" placeholder="Second Name">
+								</div>
+
+								<div class="form-group">
+									<input type="text" name="institutename" class="form-control" required="required" placeholder="Institute Name">
+								</div>
+
+								<div class="form-group">
+									<input type="email" name="email" class="form-control" required="required" placeholder="Email ID">
+								</div>
+
+								<div class="form-group">
+									<input type="text" name="email" class="form-control" required="required" placeholder="Your Contact Number">
+								</div>
+
+								<div class="form-group">
+									
+								<select id="example-selectAllText" multiple="multiple" style="display: none;">
+ 								<option value="1">Musician</option>
+								 <option value="2">Dancer</option>
+								 <option value="3">Vocalist</option>
+								 <option value="5">Something Different!</option>
+								</select>
+								<div class="btn-group">
+<div class="btn-group dropup">
+	<button type="button" class="multiselect btn btn-info dropdown-toggle btn btn-default" data-toggle="dropdown" title="None selected" aria-expanded="false">
+		<span class="multiselect-selected-text">
+			Your Interests
+		</span> 
+	<b class="caret"></b>
+	</button>
+	<ul class="multiselect-container dropdown-menu">
+		<li class="multiselect-item multiselect-all">
+			<a tabindex="0" class="multiselect-all">
+				<label class="checkbox">
+					<input type="checkbox" value="multiselect-all">Check all!
+				</label>
+			</a>
+		</li>
+		<li>
+			<a tabindex="0">
+				<label class="checkbox">
+					<input type="checkbox" value="1"> 
+						Musician
+				</label>
+			</a>
+		</li>
+		<li>
+			<a tabindex="0">
+				<label class="checkbox">
+					<input type="checkbox" value="2"> Dancer
+				</label>
+			</a>
+		</li>
+		<li>
+			<a tabindex="0">
+				<label class="checkbox">
+					<input type="checkbox" value="3"> Vocalist
+				</label>
+			</a>
+		</li>
+		<li>
+			<a tabindex="0">
+				<label class="checkbox">
+					<input type="checkbox" value="5"> Something Different!
+				</label>
+			</a>
+		</li>
+	</ul>
+</div>
+<script>
+$('#example-selectAllText').multiselect({
+  includeSelectAllOption: true,
+  selectAllText: 'Check all!'
+});
+</script>
+								</div>
+
+								<div class="form-group">
+                                                        		<button type="submit" class="btn btn-primary pull-right">Register</button>
+                                                    		</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>		
 	</section>
     <!--/#contact-->
+    <section id="developer">
+		<div id="developer-carousel" class="carousel slide" data-interval="false">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-10">
+						<h2>Developers</h2>
+						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
+							<center><img class="img-responsive profile-img" src="images/men.jpg"></center>
+							<center><p>Sahal Sajjad</p></center>	
+						</div>
+						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
+							<center><img class="img-responsive profile-img" src="images/men.jpg"></center>
+							<center><p>Abhishek Singh</p></center>	
+						</div>
+						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
+							<center><img class="img-responsive profile-img" src="images/men.jpg">
+							<center><p>Akash Das</p></center>	
+						</div>						
+					</div>
 
+				</div>					
+			</div>
+			<div class="light">
+				<img class="img-responsive display-img" src="images/dev.png" alt="">
+			</div>
+		</div>
+	</section><!--/#developer-->
     <footer id="footer">
         <div class="container">
             <div class="text-center">
