@@ -467,14 +467,53 @@ h2 {
   width: 100%;
   display: flex;
 }
-
+#see {
+  background-color: #75B46E;  
+  position: relative;  
+  width: 100%;
+  display: flex;
+}
+#paper {
+  background-color: #75B46E;  
+  position: relative;  
+  width: 100%;
+  display: flex;
+}
+#painting {
+  background-color: #75B46E;  
+  position: relative;  
+  width: 100%;
+  display: flex;
+}
+#kara {
+  background-color: #75B46E;  
+  position: relative;  
+  width: 100%;
+  display: flex;
+}
+#treasure {
+  background-color: #75B46E;  
+  position: relative;  
+  width: 100%;
+  display: flex;
+}
+#food {
+  background-color: #75B46E;  
+  position: relative;  
+  width: 100%;
+  display: flex;
+}
 .guitar2 {
   top: 0;
   width: 50%;
 }
-
+.guitar3 {
+  top: 0;
+  width:50%;
+  background-image: url("../images/back3.jpg");
+}
 .guitar2 img {
-  padding-top: 3%;
+  padding-top: 0%;
 }
 
 .about-content {
@@ -485,8 +524,54 @@ h2 {
   background-size: cover;
   padding: 70px 70px 110px;
 }
-
-
+.new {
+  width:50%;
+  background-image: url("../images/new.jpg");
+  background-position: left bottom;
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding: 70px 300px 110px;
+}
+.new1 {
+  width:50%;
+  background-image: url("../images/new1.jpg");
+  background-position: left bottom;
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding: 70px 70px 110px;
+}
+.new2 {
+  width:50%;
+  background-image: url("../images/new2.jpg");
+  background-position: left bottom;
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding: 70px 70px 110px;
+}
+.new3 {
+  width:50%;
+  background-image: url("../images/new3.jpeg");
+  background-position: left bottom;
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding: 70px 70px 110px;
+}
+.new4 {
+  width:50%;
+  background-image: url("../images/new4.jpg");
+  background-position: left bottom;
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding: 70px 70px 110px;
+}
+.new5 {
+  width:50%;
+  background-image: url("../images/new5.jpg");
+  background-position: left bottom;
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding: 70px 70px 110px;
+}
 #about h2 {
   margin-bottom: 23px;
 }
