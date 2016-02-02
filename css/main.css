@@ -510,71 +510,6 @@ h2 {
 
 
 
-/*************************
-******Twitter CSS****
-**************************/
-
-#twitter {
-  background-color: #ecedef;
-  background-image: url("../images/twitter-bg.jpg");
-  background-position: center bottom;
-  background-size: cover;
-  background-repeat:no-repeat;
-  position: relative;
-  padding: 95px 0 90px;
-  overflow: hidden;
-}
-
-.twit {
-  position: absolute;
-  left: 0;
-  top:-42%;
-}
-
-#twitter-feed .item {
-  text-align: center;
-}
-
-#twitter-feed .item img {
-  display: inline-block;
-  width: 78px;
-  height: 78px;
-  border-radius: 50%;
-  background-color: #c5c8ce;
-  padding: 5px;
-  margin-bottom: 30px;
-}
-
-#twitter-feed .item a, 
-#twitter-feed .item p { 
-  font-size: 24px;
-  font-weight: 300;
-  font-family: 'Yanone Kaffeesatz','sans-serif';
-}
-
-#twitter-feed .item p {
-  color: #3D3D3D;
-}
-
-#twitter-feed .item a {
-  color:#00c3ff;
-}
-
-.twitter-control-left, 
-.twitter-control-right {
-  position: absolute;
-  color: #00c3ff;
-  top: 59%;
-  font-size: 24px
-}
-
-.twitter-control-left {
-  left: 0;
-}
-
-.twitter-control-right {
-  right:0;
-} 
 
 
 
@@ -640,16 +575,6 @@ h2 {
 }
 
 
-/*************************
-******Map CSS****
-**************************/
-#map {
-  position: relative;
-}
-
-#gmap {
-  height:450px;  
-}
 
 
 /*************************
@@ -732,8 +657,36 @@ h2 {
   color: #fff
 }
 
+/*************************
+******Developer CSS****
+**************************/
+#developer{
+  background-color: #1881A2 ;
+  
+  min-height:300px;
+}
+.developer-control-left, 
+.developer-control-right {
+  color: #FFFFFF;
+  font-size: 24px;
+  position: absolute;
+  top: 20%;
+}
 
+.developer-control-left {
+  right: 12%;
+}
 
+.developer-control-right {
+  right: 10%;
+}
+.profile-img{
+  max-width: 150px;
+    border-radius: 40%;
+}
+.display-img{
+  max-height:300px;
+}
 /*************************
 ******Footer CSS****
 **************************/
