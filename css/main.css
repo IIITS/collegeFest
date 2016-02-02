@@ -681,9 +681,14 @@ h2 {
   right: 10%;
 }
 .profile-img{
+<<<<<<< HEAD
   max-width: 100px;
     border-radius: 20px;
     max-height: 100px;
+=======
+  max-width: 150px;
+    border-radius: 40%;
+>>>>>>> 2c322a8bd750d927ee6b119fc0ac22c17043738f
 }
 .display-img{
   max-height:300px;
