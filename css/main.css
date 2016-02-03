@@ -766,14 +766,26 @@ h2 {
   right: 10%;
 }
 .profile-img{
-<<<<<<< HEAD
+
   max-width: 100px;
     border-radius: 20px;
     max-height: 100px;
-=======
-  max-width: 150px;
-    border-radius: 40%;
->>>>>>> 2c322a8bd750d927ee6b119fc0ac22c17043738f
+
+}
+.col-div-4{
+  width:33%;
+  clear:both;
+  display:inline-block;
+}
+.col-div-9{
+  width:77%;
+  clear:both;
+  display:inline-block;
+}
+.col-div-3{
+  width:23%;
+  clear:both;
+  display:inline-block;
 }
 .display-img{
   max-height:300px;
