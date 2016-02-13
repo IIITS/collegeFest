@@ -21,6 +21,140 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+var mywindow = $(window);
+var mypos = mywindow.scrollTop();
+mywindow.scroll(function() {
+    if(mywindow.scrollTop() < mypos)
+    {
+        $(see).fadeOut();  
+    }
+    else
+    {
+        $('.myDIV').fadeIn();
+    }
+    mypos = mywindow.scrollTop();
+ });
+var mywindow1 = $(window)
+var mypos1=mywindow1.scrollTop();
+mywindow1.scroll(function() {
+    if(mywindow1.scrollTop() < mypos1)
+    {
+        $(paper).fadeOut();  
+    }
+    else
+    {
+        $('.myDIV').fadeIn();
+    }
+    mypos1 = mywindow1.scrollTop();
+ });
+var mywindow2 = $(window)
+var mypos2=mywindow2.scrollTop();
+mywindow2.scroll(function() {
+    if(mywindow2.scrollTop() < mypos2)
+    {
+        $(painting).fadeOut();  
+    }
+    else
+    {
+        $('.myDIV').fadeIn();
+    }
+    mypos2 = mywindow2.scrollTop();
+ });
+var mywindow3 = $(window)
+var mypos3=mywindow3.scrollTop();
+mywindow3.scroll(function() {
+    if(mywindow3.scrollTop() < mypos3)
+    {
+        $(kara).fadeOut();  
+    }
+    else
+    {
+        $('.myDIV').fadeIn();
+    }
+    mypos3 = mywindow3.scrollTop();
+ });
+var mywindow4 = $(window)
+var mypos4=mywindow4.scrollTop();
+mywindow4.scroll(function() {
+    if(mywindow4.scrollTop() < mypos4)
+    {
+        $(food).fadeOut();  
+    }
+    else
+    {
+        $('.myDIV').fadeIn();
+    }
+    mypos4 = mywindow4.scrollTop();
+ });
+var mywindow5 = $(window)
+var mypos5=mywindow1.scrollTop();
+mywindow5.scroll(function() {
+    if(mywindow5.scrollTop() < mypos5)
+    {
+        $(treasure).fadeOut();  
+    }
+    else
+    {
+        $('.myDIV').fadeIn();
+    }
+    mypos5 = mywindow5.scrollTop();
+ });
+
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $(see).show();
+    });
+});
+
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show1").click(function(){
+        $(paper).show();
+    });
+});
+
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show2").click(function(){
+        $(painting).show();
+    });
+});
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show3").click(function(){
+        $(kara).show();
+    });
+});
+
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show4").click(function(){
+        $(food).show();
+    });
+});
+
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show5").click(function(){
+        $(treasure).show();
+    });
+});
+</script>
 </head><!--/head-->
 
 <body>
@@ -150,13 +284,13 @@
 									<div class="col-sm-4">
 										<div class="single-event">
 											<img class="img-responsive" src="images/event/event1.jpg" alt="event-image">
-											<a href="#see"><h4>Face Painting</h4></a>		
+											<a href="#see", id = "show"><h4>Face Painting</h4></a>		
 										</div>
 									</div>
 									<div class="col-sm-4">
 										<div class="single-event">
 											<img class="img-responsive" src="images/event/event5.jpg" alt="event-image">
-											<a href="#paper"><h4>Paper Dressing</h4></a>		
+											<a href="#paper", id="show1"><h4>Paper Dressing</h4></a>		
 										</div>
 									</div>
 								</div>
@@ -166,13 +300,13 @@
 									<div class="col-sm-4">
 										<div class="single-event">
 											<img class="img-responsive" src="images/event/event4.jpg" alt="event-image">
-											<a href="#painting"><h4>Paper Painting</h4></a>		
+											<a href="#painting", id="show2"><h4>Paper Painting</h4></a>		
 										</div>
 									</div>
 									<div class="col-sm-4">
 										<div class="single-event">
 											<img class="img-responsive" src="images/event/event6.jpg" alt="event-image">
-											<a href="#kara"><h4>Karaoke</h4></a>
+											<a href="#kara",id ="show3"><h4>Karaoke</h4></a>
 										<!--	<h5>drums</h5>		-->
 										</div>
 									</div>
@@ -183,14 +317,14 @@
 									<div class="col-sm-4">
 										<div class="single-event">
 											<img class="img-responsive" src="images/event/event2.jpg" alt="event-image">
-											<a href="#food"><h4>Food without fire</h4></a>
+											<a href="#food",id="show4"><h4>Food without fire</h4></a>
 										<!--	<h5>drums</h5>		-->
 										</div>
 									</div>
 									<div class="col-sm-4">
 										<div class="single-event">
 											<img class="img-responsive" src="images/event/event3.jpg" alt="event-image">
-											<a href="#treasure"><h4>Treasure Hunt</h4></a>
+											<a href="#treasure",id="show5"><h4>Treasure Hunt</h4></a>
 										<!--	<h5>drums</h5>		-->
 										</div>
 									</div>
