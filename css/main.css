@@ -597,7 +597,11 @@ h2 {
     height: 289px;
     width:350px;
 }
-
+.img-responsive1{
+  margin-top:-10px;
+  height:100px;
+  width:200px;
+}
 
 
 /*************************
@@ -775,12 +779,12 @@ h2 {
 
 }
 .col-div-4{
-  width:33%;
+  width:20%;
   clear:both;
   display:inline-block;
 }
 .col-div-9{
-  width:77%;
+  width:88%;
   clear:both;
   display:inline-block;
 }
@@ -788,6 +792,7 @@ h2 {
   width:23%;
   clear:both;
   display:inline-block;
+  margin-top:95px;
 }
 .display-img{
   max-height:300px;
