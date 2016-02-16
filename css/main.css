@@ -597,7 +597,15 @@ h2 {
     height: 289px;
     width:350px;
 }
+.img-responsive1{
 
+  margin-top:-5px;
+  width:180px;
+
+  height:130px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         0px;
+  margin-left:40px;
+
+}
 
 
 /*************************
@@ -775,19 +783,30 @@ h2 {
 
 }
 .col-div-4{
-  width:33%;
+
+  width:5%;
+
+  width:23%;
+
   clear:both;
   display:inline-block;
 }
 .col-div-9{
-  width:77%;
+  width:88%;
+  width:85%;
   clear:both;
   display:inline-block;
+
 }
 .col-div-3{
   width:23%;
   clear:both;
   display:inline-block;
+
+  margin-top:95px;
+
+  margin-top:92px;
+
 }
 .display-img{
   max-height:300px;
