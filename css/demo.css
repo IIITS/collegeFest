@@ -33,22 +33,20 @@ a {
 .demo-1 a { color: #be4856; }
 
 .demo-2 { background: #72d0f4; }
-.demo-2 a { color: #1c9ccd; }
+. a { color: #1c9ccd; }
 
 a:hover, a:focus {
 	color: #fff;
 }
 
-section {
-	padding: 1em;
-	text-align: center;
-}
+
 
 /* Header */
 .codrops-header {
 	margin: 0 auto;
 	padding: 2em;
-	text-align: center;
+	
+
 }
 
 .codrops-header h1 {
@@ -114,7 +112,6 @@ section {
 .codrops-demos {
 	padding: 2em 0 1em;
 	font-size: 0.8em;
-	text-align: center;
 }
 
 .codrops-demos a {
@@ -146,7 +143,7 @@ section {
 	border: 2px solid #000;
 	border-color: initial;
 	display: inline-block;
-	text-align: center;
+	
 	margin: 20px 10px;
 	padding: 25px;
 }
