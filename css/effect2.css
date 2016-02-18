@@ -19,7 +19,7 @@
 		url('../fonts/feather/feather.svg?-9jv4cc#feather') format('svg');
 }
 
-.ip-header {
+.ip-header1 {
 	position: fixed;
 	top: 0;
 	z-index: 100;
@@ -29,7 +29,7 @@
 	background: #f1f1f1;
 }
 
-.ip-header h1 {
+.ip-header1 h1 {
 	margin: 0;
 }
 
@@ -54,35 +54,35 @@
 	bottom: 20%;
 }
 
-.ip-header .ip-inner {
+.ip-header1 .ip-inner {
 	display: block;
 	margin: 0 auto;
 }
 
-.ip-header .ip-logo svg {
+.ip-header1 .ip-logo svg {
 	position: absolute;
 	min-height: 200px;
 	height: 25%;
 }
 
-.loaded .ip-header .ip-logo svg {
+.loaded .ip-header1 .ip-logo svg {
 	max-height: 300px;
 }
 
-.ip-header .ip-logo svg path {
+.ip-header1 .ip-logo svg path {
 	fill: #1c9ccd;
 }
 
-.ip-header .ip-loader svg path {
+.ip-header1 .ip-loader svg path {
 	fill: none;
 	stroke-width: 6;
 }
 
-.ip-header .ip-loader svg path.ip-loader-circlebg {
+.ip-header1 .ip-loader svg path.ip-loader-circlebg {
 	stroke: #ddd;
 }
 
-.ip-header .ip-loader svg path.ip-loader-circle {
+.ip-header1 .ip-loader svg path.ip-loader-circle {
 	-webkit-transition: stroke-dashoffset 0.2s;
 	transition: stroke-dashoffset 0.2s;
 	stroke: #1c9ccd;
@@ -101,7 +101,7 @@
 	margin: 0;
 	padding: 0.5em 0 1em;
 	color: #1c9ccd;
-	text-align: center;
+	
 	font-size: 4.25em;
 	font-size: 4vw;
 	line-height: 1;
@@ -139,7 +139,6 @@
 	border-radius: 5px;
 	background: #dfdfdf;
 	color: #fff;
-	text-align: center;
 	text-transform: none;
 	font-weight: normal;
 	font-style: normal;
@@ -186,8 +185,8 @@
 }
 
 .loading .ip-loader {
-	-webkit-animation: animInitialLoader 1s cubic-bezier(0.7,0,0.3,1) both;
-	animation: animInitialLoader 1s cubic-bezier(0.7,0,0.3,1) both;
+	-webkit-animation: animInitialLoader 4s cubic-bezier(0.7,0,0.3,1) both;
+	animation: animInitialLoader 4s cubic-bezier(0.7,0,0.3,1) both;
 }
 
 @-webkit-keyframes animInitialLoader {
@@ -240,7 +239,7 @@
 }
 
 /* Header animation when loading finishes */
-.loaded .ip-header {
+.loaded .ip-header1 {
 	-webkit-animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards;
 	animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards;
 }
@@ -288,17 +287,17 @@
 }
 
 /* Change layout class for header */
-.layout-switch .ip-header {
+.layout-switch .ip-header1 {
 	position: absolute;
 }
 
 /* No JS */
-.no-js .ip-header {
+.no-js .ip-header1 {
 	position: relative;
 	min-height: 0px;
 }
 
-.no-js .ip-header .ip-logo {
+.no-js .ip-header1 .ip-logo {
 	margin-top: 20px;
 	height: 180px;
 	opacity: 1;
@@ -306,7 +305,7 @@
 	transform: none;
 }
 
-.no-js .ip-header .ip-logo svg path {
+.no-js .ip-header1 .ip-logo svg path {
 	fill: #fff;
 }
 
